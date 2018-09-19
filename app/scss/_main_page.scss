@@ -1,0 +1,37 @@
+
+header{
+  width: 100%;
+
+  background-color: $main_color;
+  padding: 15px 0;
+  .header_wrap{
+    display: flex;
+    align-content: center;
+    align-items: center;
+
+
+  }
+  .menu-list{
+    display: flex;
+  }
+}
+
+.button{
+  width: 193px;
+  height: 60px;
+  background-color: #fb9332;
+  display: flex;
+  margin: 20px auto 0;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #fff;
+  &:hover{
+    background-color: #ffb83d;
+  }
+}
