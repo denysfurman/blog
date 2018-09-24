@@ -5,7 +5,7 @@
 
 
 ::placeholder {
-  color: #666;
+  color: #999;
 }
 
 ::selection {
@@ -41,20 +41,19 @@ a , button{
 
 input{
   &[type="email"], &[type="number"], &[type="search"], &[type="text"], &[type="tel"], &[type="url"], &[type="password"] {
-    border: none !important;
+
     outline: none;
-    height: 63px;
-    background-color: #eeeeee;
+    height: 43px;
+    border-radius: 20px;
+    border: 1px solid #dedfe0;
+    background-color: #ffffff;
     width: 100%;
     color: #333;
-    margin-bottom: 30px;
-    border-radius: 5px;
-
-    font-size: 18px;
-
+    margin-bottom: 20px;
+    font-size: 14px;
     font-weight: 300;
 
-    line-height: 63px;
+    line-height: 43px;
     padding: 0 20px;
   }
   &:focus:required:invalid {
@@ -65,20 +64,18 @@ input{
   }
 }
 textarea{
-  height: 140px;
+  height: 200px;
   line-height: 20px;
   padding:  15px 20px ;
-  border: none!important;
-  outline: none;
-  color: #333;
-  background-color: #eeeeee;
+  border: 1px solid #dedfe0;
+  background-color: #ffffff;
   width: 100%;
-
-  margin-bottom: 30px;
-  font-size: 18px;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 14px;
   font-weight: 300;
   resize: none;
-  border-radius: 5px;
+  border-radius: 20px;
   &:focus:required:invalid {
     border-color: red;
   }
@@ -91,6 +88,7 @@ textarea{
   max-width: 100%;
   height: auto;
 }
+
 
 .text-center {
   text-align: center;
